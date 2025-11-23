@@ -134,3 +134,63 @@ footer p{
     font-weight: bold;
     font-family: Calibri, sans-serif;
 }
+
+@media (max-width: 1024px) {
+    nav {
+        width: 160px;
+    }
+
+    img {
+        width: 50%;
+    }
+
+    h2, p, #Contato {
+        margin-left: 20%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    nav{
+        position: relative;
+        width: 100%;
+        height: auto;
+        float: none;
+        padding: 10px 0;
+    }
+
+    nav ul li a{
+        font-size: 18px;
+        padding: 8px;
+        display: inline-block;
+    }
+
+    h2, p, #Contato{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    img {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+
+    nav ul li a{
+        font-size: 16px;
+    }
+
+    h1{
+        font-size: 22px;
+    }
+
+    img{
+        width: 95%;
+    }
+
+    #Contato input, #Contato textarea{
+        width: 100%;
+    }
+
+}
